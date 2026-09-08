@@ -17,7 +17,7 @@ MAX_RETRIES = 2
 
 class WorkflowError(Exception):
     """Custom error for AI workflow failures."""
-
+MAX_RETRIES = 3
 
 # ============================================================
 # GEMINI CLIENT
