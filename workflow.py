@@ -10,7 +10,7 @@ class WorkflowError(Exception):
 
 
 # Keep the model in one place so it can be changed easily.
-MODEL = os.getenv("GROQ_MODEL", "llama-3.3-70b-versatile")
+MODEL = os.getenv("GROQ_MODEL", "gpt-oss-120b")
 
 
 def _get_api_key() -> str:
