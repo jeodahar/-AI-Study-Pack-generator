@@ -11,7 +11,7 @@ from google import genai
 # CONFIGURATION
 # ============================================================
 
-GEMINI_MODEL = os.getenv("GEMINI_MODEL", "gemini-2.5-flash")
+GEMINI_MODEL = os.getenv("GEMINI_MODEL", "gemini-3.6-flash")
 MAX_RETRIES = 2
 
 
