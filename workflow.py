@@ -1,7 +1,7 @@
 import os
 import time
 from typing import Callable, Dict, Optional
-
+from google import genai
 from groq import Groq
 
 
@@ -10,6 +10,7 @@ class WorkflowError(Exception):
 
 
 # Keep the model in one place so it can be changed easily.
+GEMINI_MODEL = "gemini-2.5-flash"
 MODEL = os.getenv("GROQ_MODEL", "gpt-oss-120b")
 
 
